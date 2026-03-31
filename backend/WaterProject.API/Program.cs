@@ -16,7 +16,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowReactAppBlah",
     policy =>
     {
-        policy.WithOrigins("http://localhost:3001")
+        policy.WithOrigins("https://nice-bay-0d21ba21e.6.azurestaticapps.net/")
             .AllowAnyMethod()
             .AllowAnyHeader();
     }));
